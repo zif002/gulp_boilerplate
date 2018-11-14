@@ -8,14 +8,14 @@ Clone this repo and then in command line type:
 
 
 ### Use Linters in template
-Task name          | Description                                                      
+Linter name          | Description                                                      
 :------------------|:----------------------------------
 `pug-lint`         | pug-lint, https://www.npmjs.com/package/gulp-pug-lint
 `stylelint`        | https://stylelint.io, gulp-stylelint
 `eslint`           | https://eslint.org/ gulp-eslint
 
 ### Main tasks
-Linter name          | Description                                                      
+Task name          | Description                                                      
 :------------------|:----------------------------------
 `default`          | will start all tasks required by project in dev mode: initial build, watch files, run server with livereload
 `build:dev`        | build dev version of project (without code optimizations)
