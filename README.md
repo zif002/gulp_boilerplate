@@ -7,14 +7,14 @@ Clone this repo and then in command line type:
 * `gulp build` - build project from sources
 
 
-### Main tasks
+### Use Linters in template
 Task name          | Description                                                      
 :------------------|:----------------------------------
 `pug-lint`         | pug-lint, https://www.npmjs.com/package/gulp-pug-lint
 `stylelint`        | https://stylelint.io, gulp-stylelint
 `eslint`           | https://eslint.org/ gulp-eslint
 
-### Use Linters in template
+### Main tasks
 Linter name          | Description                                                      
 :------------------|:----------------------------------
 `default`          | will start all tasks required by project in dev mode: initial build, watch files, run server with livereload
@@ -36,6 +36,7 @@ Task name          | Description
 `clean`            | remove `./dist` folder
 `index-page`       | create index file with links to all project pages
 `webpack`          | compile js
+
 
 
 * `npm run start` - same as `gulp default`.
