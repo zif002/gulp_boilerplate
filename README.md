@@ -38,8 +38,6 @@ Task name          | Description
 `webpack`          | compile js
 
 
-### this is template chenged form https://github.com/coderiver/gulp
-
 * `npm run start` - same as `gulp default`.
 * `npm run build` - same as `gulp build`.
 
