@@ -1,0 +1,51 @@
+=d
+  @media only screen and (max-width: "1340px")
+    @content
+=t
+  @media only screen and (max-width: "1023px")
+    @content
+=m
+  @media only screen and (max-width: "767px")
+    @content
+=mm
+  @media only screen and (min-width: "768px")
+    @content
+=s
+  @media only screen and (max-width: "474px")
+    @content
+
++font(GloberSemiBold, GloberSemiBold)
+
+=f
+  font-family: 'GloberSemiBold', serif
++font(GloberBold, GloberBold)
+=fb
+  font-family: 'GloberBold', serif
+
+=link
+  border-bottom: 1px solid transparent
+  transition: border-color .2s
+  +hover
+    border-color: rgba($blue,.6)
+
+=hover
+  +mm
+    &:hover
+      @content
+
+=multi
+  display: -webkit-box
+  text-overflow: ellipsis
+  -webkit-line-clamp: 5
+  -webkit-box-orient: vertical
+  overflow: hidden
+
+$black: #000
+$white: #fff
+$blue: #2897ff
+$border: #dcdcdc
+$red: #f10a2b
+$gray: #a8abb5
+$cl: #18191d
+$text: #545864
+$bg: #f8f9fc
