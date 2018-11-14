@@ -10,11 +10,16 @@ Clone this repo and then in command line type:
 ### Main tasks
 Task name          | Description                                                      
 :------------------|:----------------------------------
+`pug-lint`         | pug-lint, https://www.npmjs.com/package/gulp-pug-lint
+`stylelint`        | https://stylelint.io, gulp-stylelint
+`eslint`           | https://eslint.org/ gulp-eslint
+
+### Use Linters in template
+Linter name          | Description                                                      
+:------------------|:----------------------------------
 `default`          | will start all tasks required by project in dev mode: initial build, watch files, run server with livereload
 `build:dev`        | build dev version of project (without code optimizations)
 `build`            | build production-ready project (with code optimizations)
-### Linters
-This project use puglinter, eslint, stylelint
 
 ### Other tasks
 Task name          | Description                                                      
@@ -30,6 +35,7 @@ Task name          | Description
 `server`           | run dev-server powered by [BrowserSync](https://www.browsersync.io/)
 `clean`            | remove `./dist` folder
 `index-page`       | create index file with links to all project pages
+`webpack`          | compile js
 
 
 ### this is template chenged form https://github.com/coderiver/gulp
